@@ -1,0 +1,41 @@
+.main{
+    grid-area:m;
+    background-color: rgb(61, 158, 248);
+    max-width:auto;
+    padding:50px;
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.picture{
+    width:300px;
+    height:300px;
+  
+}
+
+.btcont{
+    margin-top: 10px;
+    height: 20px;
+    width:200px;
+}
+
+.imgblock{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .bt{
+    grid-area: b;
+    display:flex;
+    
+} */
+/* 
+.picture:not(:last-of-type){
+margin-right: 150px;
+}
+
+.picture:first-of-type{ 
+    margin-left: 50px;
+} */
+
